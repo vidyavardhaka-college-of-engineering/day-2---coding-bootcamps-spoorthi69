@@ -10,7 +10,10 @@
 int main()
 {
     int a, b, temp;
+    
+    printf("Enter 2 numbrs\n");
     scanf("%d%d", &a, &b);
+    printf("numbers before swap = %d %d\n", a,b);
 
     //Write your code here
     temp=a;
@@ -19,6 +22,7 @@ int main()
     
 
   
-    printf("%d %d\n", a, b);
+    printf("numbers after swap = %d %d\n", a,b);
+  
     return 0;
 }
