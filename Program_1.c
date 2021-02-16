@@ -4,10 +4,10 @@ the word "TYPE" */
 #include<stdio.h>
 int main()
 {
-TYPE num = 100;
-TYPE letter = 'A';
+int a = 100;
+char letter = 'A';
 /* Printing num and charecter value */
-printf("%d\n",num);
+printf("%d\n",a);
 printf("%c\n",letter);
 /* if you done creerct you will get bellow message */
 printf("Good Job...");
